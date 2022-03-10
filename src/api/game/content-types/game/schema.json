@@ -4,7 +4,8 @@
   "info": {
     "singularName": "game",
     "pluralName": "games",
-    "displayName": "Games"
+    "displayName": "Games",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -29,12 +30,8 @@
     "popular": {
       "type": "boolean"
     },
-    "image": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
+    "image_url": {
+      "type": "string"
     }
   }
 }
